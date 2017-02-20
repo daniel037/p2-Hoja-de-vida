@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Software para el manejo de hoja de vida.</title>
+        <meta charset="UTF-8">        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="css/estilo.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <table width="100%" >
+            <thead>
+                <tr>  <th> <img src="imagenes/udenar.jpg" alt="logo Udenar" title="Logo Udenar"></th>  <th>    <h1>Software para el manejo de hoja de vida</h1>  </th> <th> <img src="imagenes/udenar.jpg" alt="logo Udenar" title="Logo Udenar"> </th> </tr>
+            </thead>    
+        </table>    
+        <hr>
+        
+        <table width="100%" >
+            <tr>  
+                <th width="25%">
+                    <h2>Menu Principal</h2><br>
+                    <hr>
+                    <nav>
+                        <a href="index.html">Datos Personales</a><br>
+                        <a href="estudios.html"> Estudios</a><br>
+                        <a href="experiencia.html"> Experiencia laborarl</a><br>
+                    </nav>         
+                </th>              
+                
+                <th> 
+                    <h2>Registro De Estudios</h2><br>
+                    <hr>
+                    <form>
+                        <table>
+                            <tr> <th colspan="2"> Bachiller </th> </tr>  
+                            <tr> 
+                                <td>
+                                    <label> Colegio </label>
+                                    <input type="text" name="txtcolegio" required class="entradas"> <br> 
+                                </td>           
+                                <td>
+                                    <label> Año de grado </label>
+                                    <input type="number" min="0" name="txtgrado" required class="entradas"> <br> 
+                                </td>  
+                            </tr>
+                            <tr> <th colspan="2"> Superior </th> </tr>  
+                            <tr> 
+                                <td>
+                                    <label> Instuto </label>
+                                    <input type="text" name="txtinsti" required class="entradas"> <br> 
+                                </td>           
+                                <td>
+                                    <label> Año de grado </label>
+                                    <input type="number" min="0" name="txtgrado2" required class="entradas"> <br> 
+                                </td>  
+                            </tr>                            
+                            <tr> <th colspan="2"> Post-Grado </th> </tr>  
+                            <tr> 
+                                <td>
+                                    <label> Instituto </label>
+                                    <input type="text" name="txtinsti2" required class="entradas"> <br> 
+                                </td>           
+                                <td>
+                                    <label> Año de grado </label>
+                                    <input type="number" min="0" name="txtgrado3" required class="entradas"> <br> 
+                                </td>  
+                            </tr>                                                              
+                        </table>   
+                        <input type="submit" value="Guardad">
+                        <input type="reset" value="Limpiar">           
+                    </form> 
+                </th>  
+            </tr>
+        </table>
+        <br>
+        <hr>   
+    </body>
+</html>
